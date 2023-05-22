@@ -376,6 +376,151 @@ color: #22343D;
 margin-left: 470px;
 }
 
+/* ///////////////////////////////////// */
+
+
+.seven-content {
+    padding-top: 150px;
+}
+
+
+
+
+.seven-content .p-1 {
+    font-weight: 700;
+font-size: 34px;
+line-height: 57px;
+letter-spacing: 0.2px;
+color: #22343D;
+padding-bottom: 8px;
+text-align: center;
+}
+
+.seven-content .p-2 {
+    font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #22343D;
+padding-bottom: 50px;
+}
+
+.seven-content .cards {
+    display: flex;
+    justify-content: space-between;
+}
+.seven-content .cards .card:hover {
+    background: #e7e0e0;
+}
+.seven-content .cards .card {
+    width: 327px;
+    height: 236px;
+    display: block;
+    padding: 28px 26px;
+    box-shadow: #737373;
+    border: 5px;
+}
+.seven-content .cards .card img {
+    width: 106px;
+    height: 18px;
+    padding-bottom: 16px;
+}
+
+.seven-content .cards .card .p-1 {
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #737373;
+padding-bottom: 16px;
+}
+.seven-content .cards .card .tex {
+    display: inline-flex;
+}
+.seven-content .cards .card .tex img {
+    width: 50px;
+    height: 50px;
+}
+
+.seven-content .cards .card .tex .text {
+    display: block;
+    margin-top: -150px;
+    margin-left: 35px;
+}
+
+.seven-content .cards .card .tex .text .p-1 {
+    font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #02897A;
+text-align: start;
+}
+.seven-content .cards .card .tex .text .p-2 {
+    margin-top: -10px;
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #252B42;
+}
+/* //////////////////////////////////// */
+
+
+.eight-content {
+    padding: 157px 100px;
+}
+
+
+.eight-content .card {
+    background: #02897A;
+    border-radius: 32px;
+    display: flex;
+}
+
+.eight-content .card .menu {
+    display: block;
+    padding: 40px 50px;
+}
+
+.eight-content .card  .menu .p-1 {
+    font-weight: 600;
+font-size: 32px;
+line-height: 151.4%;
+color: #FFFFFF;
+}
+
+.eight-content .card  .menu button {
+    background: #FFFFFF;
+border-radius: 8px;
+width: 150px;
+height: 50px;
+}
+
+.eight-content .card  .menu button .p-1 {
+    font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #02897A;
+padding: 0px 10px;
+padding-top: -10px;
+}
+.eight-content .card img {
+    filter: drop-shadow(0px 0px 32px rgba(0, 0, 0, 0.15));
+border-radius: 5px;
+width: 351px;
+height: 331px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -385,11 +530,12 @@ margin-left: 470px;
 /* ///////////////////////////////////////// */
 
 
-
+li{
+    list-style-type: none;
+}
 
 footer{
     display: flex;
-    width: 100%;
     height:40.2rem;
     margin-top: 9.6rem;
 }
@@ -418,12 +564,10 @@ footer{
     padding-top: 9.6rem;
 }
 .footer-h1{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 140%;
-    color: #FFFFFF;
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #22343D;
 }
 .mail{
     border: 1px solid rgba(235, 240, 249, 0.3);
@@ -433,8 +577,6 @@ footer{
     padding-left: 2.4rem;
     margin-top: 3.2rem;
     background: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -447,19 +589,18 @@ footer{
     border-radius: 4px;
     width:13.6rem;
     height: 6.4rem;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #1D2130;
-    border: none;
+    font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+ border: none;
     cursor: pointer;
 }
 .footer-link{
     display: flex;
     flex-direction: column;
-    gap: 2.4rem;
+    gap: 10px;
 
 }
 .li-p{
@@ -473,6 +614,19 @@ color: #22343D;
 font-size: 16px;
 line-height: 35px;
 color: #22343D;
+ opacity: 0.78;
+}
+input {
+    border: #1D2130;
+}
 
-    opacity: 0.78;
+.footer-box-3 button {
+    
+    background: #02897A;
+border-radius: 4px;
+}
+
+.saytla {
+    padding-top: 70px;
+    gap: 40px;
 }
